@@ -1,0 +1,11 @@
+C:\Users\Marcus\projects\morriganscurse\bin\Debug\netcoreapp2.2\morriganscurse.deps.json
+C:\Users\Marcus\projects\morriganscurse\bin\Debug\netcoreapp2.2\morriganscurse.runtimeconfig.json
+C:\Users\Marcus\projects\morriganscurse\bin\Debug\netcoreapp2.2\morriganscurse.runtimeconfig.dev.json
+C:\Users\Marcus\projects\morriganscurse\bin\Debug\netcoreapp2.2\morriganscurse.dll
+C:\Users\Marcus\projects\morriganscurse\bin\Debug\netcoreapp2.2\morriganscurse.pdb
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.csprojAssemblyReference.cache
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.AssemblyInfoInputs.cache
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.AssemblyInfo.cs
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.dll
+C:\Users\Marcus\projects\morriganscurse\obj\Debug\netcoreapp2.2\morriganscurse.pdb
