@@ -8,9 +8,8 @@ namespace morriganscurse.Objects
 
     }
 
-    public override bool Use()
+    public override void Use()
     {
-      return true;
     }
   }
 }

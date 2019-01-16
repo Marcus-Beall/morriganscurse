@@ -64,6 +64,13 @@ namespace morriganscurse.Models
         return false;
       }
     }
+    public void UseItem(string type)
+    {
+      if (Inventory.ContainsKey(type))
+      {
+        Inventory[type].Use();
+      }
+    }
   }
 
 }

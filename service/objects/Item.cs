@@ -4,7 +4,7 @@ namespace morriganscurse.Objects
   {
     public string Name { get; set; }
     public string Description { get; set; }
-    abstract public bool Use();
+    abstract public void Use();
     public Item(string name, string description)
     {
       Name = name;

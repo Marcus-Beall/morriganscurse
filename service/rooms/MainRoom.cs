@@ -25,18 +25,25 @@ namespace morriganscurse.Service
       {
         case "one":
           one.Start();
+          break;
         case "two":
           two.Start();
+          break;
         case "three":
           three.Start();
+          break;
         case "four":
           four.Start();
+          break;
         case "five":
           five.Start();
+          break;
         case "six":
           six.Start();
+          break;
         case "seven":
           seven.Start();
+          break;
       }
     }
 
@@ -86,7 +93,7 @@ It remains open. Would you like to go back through?");
             answer = Console.ReadLine();
             if (answer.Contains("yes") || answer.Contains('y'))
             {
-              Move(one);
+              Move("one");
             }
           }
           else if (answer.Contains("2") || answer.Contains("two"))

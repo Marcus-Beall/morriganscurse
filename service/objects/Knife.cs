@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace morriganscurse.Objects
 {
   class Knife : Item
@@ -7,12 +10,11 @@ namespace morriganscurse.Objects
       Name = name;
       Description = description;
     }
-    override public bool Use()
+    override public void Use()
     {
       Console.WriteLine(@"You go up to the door and notice a small hole on the door just large enough for the knife's blade.
 You put the knife in the hole and the door swings outward, 
 revealing a large septagonal room with six other doors.");
-      Move("door");
     }
   }
 }

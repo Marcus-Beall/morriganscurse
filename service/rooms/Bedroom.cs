@@ -69,7 +69,7 @@ Now it looks as though you might fall through it at any moment.");
           answer = Console.ReadLine();
           if (answer.Contains("door"))
           {
-            currentPlayer.Inventory.knife.Use();
+            currentPlayer.UseItem("knife");
           }
         }
         else if (!currentPlayer.HasItem("knife") && answer.Contains("knife") && answer.Contains("take"))
