@@ -22,7 +22,6 @@ Open
 Use
 Talk");
     }
-
     public void Move(string door)
     {
       MainRoom mainRoom = new MainRoom(currentPlayer);
@@ -62,6 +61,10 @@ Now it looks as though you might fall through it at any moment.");
           Console.Clear();
           Console.WriteLine("Game Over");
           break;
+        }
+        else if (answer.Contains("quit"))
+        {
+          action = false;
         }
         else if (currentPlayer.HasItem("knife") && answer.Contains("knife") && answer.Contains("use"))
         {

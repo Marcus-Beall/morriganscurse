@@ -78,6 +78,10 @@ Its wings are spread and it appears to be staring at the door with a large numbe
 Both of its eyes have indents that seem to be missing pieces.
 What would you like to do?");
         }
+        else if (answer.Contains("quit"))
+        {
+          action = false;
+        }
         else if (answer.Contains("look") || answer.Contains("inspect") || answer.Contains("study") && answer.Contains("door"))
         {
           if (answer.Contains("3") || answer.Contains("three"))
@@ -106,20 +110,17 @@ You can hear the faint sound of humming coming from behind the door.");
           else if (answer.Contains("4") || answer.Contains("four"))
           {
             Console.WriteLine(@"The door is a faded grey.
-It's largely unremarkable.
-Would you like to go inside?");
+It's largely unremarkable.");
           }
           else if (answer.Contains("5") || answer.Contains("five"))
           {
             Console.WriteLine(@"The door is a faded grey.
-It's largely unremarkable.
-Would you like to go inside?");
+It's largely unremarkable.");
           }
           else if (answer.Contains("6") || answer.Contains("six"))
           {
             Console.WriteLine(@"The door is a faded grey.
-It's largely unremarkable.
-Would you like to go inside?");
+It's largely unremarkable.");
           }
           else if (answer.Contains("7") || answer.Contains("seven"))
           {
